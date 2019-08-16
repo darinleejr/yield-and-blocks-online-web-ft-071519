@@ -5,6 +5,9 @@ def hello_t(names)
   i += 1
   end
   names
+  else
+    puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!
